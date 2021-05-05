@@ -4,8 +4,8 @@ import "../styles/App.css";
 const App = () => {
   return (
     <div id="main">
-      <h1>Easy Peasy</h1>
-      <p>
+      <h1 data-ns-test="project-name">Easy Peasy</h1>
+      <p data-ns-test="project-description">
         Easy Peasy is a Cryptocurency exchange platform. It will provide a
         simple user friendly user interface. It will help people to experiance
         power of of Crypto Community and participate with maximum ease.
